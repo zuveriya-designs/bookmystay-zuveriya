@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "CI": "false"
   },
   "dependencies": {
     "@iconscout/react-unicons": "^2.0.2",
@@ -19,5 +20,21 @@
     "react-dom": "18.2.0",
     "tailwind-scrollbar-hide": "^1.1.7",
     "tailwindcss": "3.3.1"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuveriya-designs/bookmystay-zuveriya.git"
+  },
+  "keywords": [
+    "zuveriya"
+  ],
+  "author": "zuveriya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zuveriya-designs/bookmystay-zuveriya/issues"
+  },
+  "homepage": "https://github.com/zuveriya-designs/bookmystay-zuveriya#readme"
 }
