@@ -5,6 +5,7 @@ import LargeCard from "@/components/LargeCard";
 import MediumCard from "@/components/MediumCard";
 import SmallCard from "@/components/SmallCard";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home({ exploreData, cardsData }) {
   return (
@@ -13,6 +14,9 @@ export default function Home({ exploreData, cardsData }) {
         <title>BookMyStay</title>
         {/* <link rel='icon' href=''/> */}
       </Head>
+      <Link href='https://api.tiles.mapbox.com/mapbox-gl-js/v<YOUR_MAPBOX_VERSION>/mapbox-gl.css' rel='stylesheet' />
+
+
       {/* Header */}
       <Header />
 

@@ -1,11 +1,10 @@
 function Footer() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-4 items-center md:space-x-5 space-y-10  md:px-32 px-10 text-center py-14">
+    <div className="grid grid-cols-1 bg-slate-100 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 items-center md:space-x-5 space-y-10  md:px-32 px-10 text-center py-14">
       <div className="space-y-4 md:px-4">
         <h4 className="text-3xl font-semibold">BookMyStay</h4>
         <p className="text-sm md:text-md text-gray-500">
-          Scelerisque viverra mauris in aliquam sem fringilla ut morbi.
-          Scelerisque eu ultrices vitae auctor.
+        "Where every stay is a new adventure."
         </p>
       </div>
      

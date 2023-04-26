@@ -2,7 +2,7 @@ import Image from "next/legacy/image"
 
 function Banner() {
   return (
-    <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[550px] 2xl:h-[620px]">
+    <div className=" relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[550px] 2xl:h-[620px]">
       <Image
         src="/images/home.jpg"
         layout="fill"
